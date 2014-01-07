@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.boot:spring-boot-autoconfigure:0.5.0.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://D:/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/0.5.0.BUILD-SNAPSHOT/spring-boot-autoconfigure-0.5.0.BUILD-20140106.190529-421.jar!/" />
+      <root url="jar://D:/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/0.5.0.BUILD-SNAPSHOT/spring-boot-autoconfigure-0.5.0.BUILD-20140107.180544-423.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://D:/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/0.5.0.BUILD-SNAPSHOT/spring-boot-autoconfigure-0.5.0.BUILD-20140106.190529-421-javadoc.jar!/" />
+      <root url="jar://D:/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/0.5.0.BUILD-SNAPSHOT/spring-boot-autoconfigure-0.5.0.BUILD-20140107.180544-423-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://D:/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/0.5.0.BUILD-SNAPSHOT/spring-boot-autoconfigure-0.5.0.BUILD-20140106.190529-421-sources.jar!/" />
+      <root url="jar://D:/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/0.5.0.BUILD-SNAPSHOT/spring-boot-autoconfigure-0.5.0.BUILD-20140107.180544-423-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
