@@ -12,12 +12,14 @@
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>0.5.0.BUILD-SNAPSHOT</version>
 	</parent>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 	</dependencies>
+
 	<repositories>
 		<repository>
 			<id>spring-snapshots</id>
@@ -38,7 +40,7 @@
               <configuration>
                   <webResources>
                       <resource>
-                          <directory>${build.sourceDirectory}</directory>
+                          <directory>${project.build.sourceDirectory}</directory>
                           <targetPath>sources</targetPath>
                       </resource>
                   </webResources>
