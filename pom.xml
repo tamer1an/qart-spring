@@ -1,38 +1,36 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>qart-spring</groupId>
-  <artifactId>qart-spring</artifactId>
+  <groupId>spring4-maven</groupId>
+  <artifactId>spring4-maven</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>spring4-maven Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <parent>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
-    <version>0.5.0.BUILD-SNAPSHOT</version>
-	</parent>
+  <dependencies>
+        <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>3.8.1</version>
+          <scope>test</scope>
+        </dependency>
 
-	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-	</dependencies>
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-context</artifactId>
+          <version>4.0.0.M2</version>
+      </dependency>
+  </dependencies>
 
-	<repositories>
-		<repository>
-			<id>spring-snapshots</id>
-			<name>Spring Snapshots</name>
-			<url>http://repo.spring.io/snapshot</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
+  <repositories>
+      <repository>
+          <id>spring-milestones</id>
+          <url>http://repo.springsource.org/libs-milestone/</url>
+      </repository>
+  </repositories>
 
   <build>
-    <finalName>qart-spring</finalName>
+    <finalName>spring4-maven</finalName>
       <plugins>
           <plugin>
               <groupId>org.apache.maven.plugins</groupId>
@@ -40,7 +38,7 @@
               <configuration>
                   <webResources>
                       <resource>
-                          <directory>${project.build.sourceDirectory}</directory>
+                          <directory>${build.sourceDirectory}</directory>
                           <targetPath>sources</targetPath>
                       </resource>
                   </webResources>
